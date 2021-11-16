@@ -2,20 +2,21 @@
 
 using namespace std;
 
-int sask(int x, int y);
+int sask(int x, int y, int z);
 
 int main()
 {
-    int a, b;
-    cout<<"ievadi 2 skaitlus"<<endl;
+    int a, b, c;
+    cout<<"ievadi 3 skaitlus"<<endl;
     cin>>a;
     cin>>b;
-    cout<< "skaitlu summa ir "<<sask(a, b);
+    cin>>c;
+    cout<< "skaitlu summa ir "<<sask(a, b, c);
 }
 
-int sask(int d, int e) {
+int sask(int d, int e, int g) {
     int f;
 
-    f = d + e;
+    f = d + e + g;
     return f;
 }
